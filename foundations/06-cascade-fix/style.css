@@ -3,7 +3,8 @@ body {
 }
 
 .para,
-.small-para {
+.small-para,
+.text.child {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
 }
@@ -17,7 +18,7 @@ body {
   font-size: 22px;
 }
 
-.confirm {
+#confirm-button {
   background: green;
   color: white;
   font-weight: bold;
